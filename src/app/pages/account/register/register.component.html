@@ -1,0 +1,109 @@
+<app-breadcrumb [title]="'Register'" [breadcrumb]="'Register'"></app-breadcrumb>
+<!-- section start -->
+<section class="register-page section-b-space">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>create account</h3>
+                <div class="theme-card">
+                    <form class="theme-form" [formGroup]="registrationForm" (ngSubmit)="register()">
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <label for="review">First Name</label>
+                                <p [ngClass]="{ 'has-error': isSubmitted && formControls.firstName.errors }">
+                                <input type="text" class="form-control" id="review" placeholder="Enter your first name" required="" formControlName="firstName">
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="review">Last Name</label>
+                                <p [ngClass]="{ 'has-error': isSubmitted && formControls.lastName.errors }">
+                                <input type="text" class="form-control" id="review" placeholder="Enter your last name" required="" formControlName="lastName">
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <label for="email">Username</label>
+                                <p [ngClass]="{ 'has-error': isSubmitted && formControls.userName.errors }">
+                                <input type="text" class="form-control" id="fname" placeholder="Enter your username" required="" formControlName="userName">
+                            </p>    
+                          
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email">email</label>
+                                <p [ngClass]="{ 'has-error': isSubmitted && formControls.email.errors }">
+                                <input type="text" class="form-control" id="email" placeholder="Enter your email" required="" formControlName="email">
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <label for="review">Password</label>
+                                <p [ngClass]="{ 'has-error': isSubmitted && formControls.password.errors }">
+                                <input type="password" class="form-control" id="review" placeholder="Enter your password" required="" formControlName="password">
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="review">Confirm Password</label>
+                                <p [ngClass]="{ 'has-error': isSubmitted && formControls.confirmPassword.errors }">
+                                <input type="password" class="form-control" id="review" placeholder="Enter your password" required="" formControlName="confirmPassword">
+                                <span style='color:rgb(216, 12, 12)' *ngIf="formControls.password.value != formControls.confirmPassword.value">
+                                    Password does not match</span>    
+                            </p>
+                            </div>
+                            
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <label for="review">Phone Number</label>
+                                <p [ngClass]="{ 'has-error': isSubmitted && formControls.phoneNo.errors }">
+                                <input type="text" class="form-control" id="review" placeholder="Enter your phone number" required="" formControlName="phoneNo">
+                                </p>
+                            </div>
+                            
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-12">
+                                <label for="review">Address</label>
+                                <p [ngClass]="{ 'has-error': isSubmitted && formControls.address.errors }">
+                                <input type="text" class="form-control" id="review" placeholder="Enter your address" required="" formControlName="address">
+                                </p>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <label for="review">postalCode</label>
+                                <p [ngClass]="{ 'has-error': isSubmitted && formControls.postalCode.errors }">
+                                <input type="text" class="form-control" id="review" placeholder="Enter your postalCode" required="" formControlName="postalCode">
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="review">City</label>
+                                <p [ngClass]="{ 'has-error': isSubmitted && formControls.city.errors }">
+                                <input type="text" class="form-control" id="review" placeholder="Enter your city" required="" formControlName="city">
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <div class="field-label">State</div>
+                                <p [ngClass]="{ 'has-error': isSubmitted && formControls.state.errors }">
+                                <select (change)="changeState($event)" formControlName="state">
+                                    <option [ngValue]="null"> Choose your state</option>
+                                    <option *ngFor="let state of States" [ngValue]="state">{{state}}</option>
+                                  </select>
+                                </p>
+                            </div>
+                        </div>
+                            <br> <br> <br>
+                            <!-- <a class="btn btn-solid" [routerLink]="['/home/fashion']">Create Account</a> -->
+                            <button class="btn btn-solid" type="submit">Create Account</button>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Section ends-->

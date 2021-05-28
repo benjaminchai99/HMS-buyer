@@ -1,0 +1,59 @@
+<app-breadcrumb [title]="'Profile'" [breadcrumb]="'Profile'"></app-breadcrumb>
+<!-- personal deatail section start -->
+<section class="contact-page register-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>PERSONAL DETAIL</h3>
+                <form class="theme-form" [formGroup]= "profileData" (ngSubmit) = "update()">
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <label for="review">Phone number</label>
+                            <input type="text" class="form-control" formControlName="phoneNo" id="review" placeholder="Enter your phone number" required="">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email">Email</label>
+                            <input type="text" class="form-control" formControlName="email" id="email" placeholder="Enter your email" required="">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="review">Address</label>
+                            <textarea class="form-control mb-0" formControlName="address" placeholder="Write your address" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <form class="theme-form" [formGroup]= "profileData" (ngSubmit) = "update()">
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <label for="email">Post Code *</label>
+                            <input type="text" class="form-control" formControlName="postalCode" id="zip-code" placeholder="zip-code" required="">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="review">City *</label>
+                            <input type="text" class="form-control" formControlName="city" id="city" placeholder="City" required="">
+                        </div>
+                        <div class="col-md-12">
+                            <div class="field-label">State</div>
+                            <select (change)="changeState($event)" formControlName="state">
+                                <option [ngValue]="null"> Choose your state</option>
+                                <option *ngFor="let state of States" [ngValue]="state">{{state}}</option>
+                              </select>
+                        </div>
+                        <div class="col-md-12">
+                            <button class="btn btn-sm btn-solid" type="submit">Save setting</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Section ends -->

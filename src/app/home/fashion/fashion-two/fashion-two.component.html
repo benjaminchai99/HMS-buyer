@@ -1,0 +1,140 @@
+<app-header-three></app-header-three>
+
+<!-- Home slider start-->
+<section class="p-0">
+    <app-slider 
+        [sliders]="sliders"
+        [textClass]="'text-center'"
+        [category]="'fashion'"
+        [buttonText]="'shop now'">
+    </app-slider>
+</section>
+<!-- Home slider End -->
+
+<!-- collection banner start-->
+<section class="banner-padding banner-furniture">
+    <div class="container-fluid">
+        <div class="row partition2">
+            <div class="col-md-6" *ngFor="let collection of collections1">
+                <a [routerLink]="['/shop/collection/left/sidebar']" [queryParams]="{ category: 'stationaries'}">
+                    <div class="collection-banner p-left text-left">
+                        <img [src]="collection.image" class="img-fluid" alt="collection-banner">
+                        <div class="contain-banner">
+                            <div>
+                                <h4>{{collection.save}}</h4>
+                                <h2>{{collection.title}}</h2>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="banner-padding banner-furniture">
+    <div class="container-fluid">
+        <div class="row partition2">
+            <div class="col-md-6" *ngFor="let collection of collections2">
+                <a [routerLink]="['/shop/collection/left/sidebar']" [queryParams]="{ category: 'stationaries'}">
+                    <div class="collection-banner p-left text-left">
+                        <img [src]="collection.image" class="img-fluid" alt="collection-banner">
+                        <div class="contain-banner">
+                            <div>
+                                <h4>{{collection.save}}</h4>
+                                <h2>{{collection.title}}</h2>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- collection banner End -->
+
+<!-- Tab product start-->
+<div class="title1 section-t-space">
+    <h4>exclusive products</h4>
+    <h2 class="title-inner1">special products</h2>
+</div>
+<section class="section-b-space p-t-0">
+    <div class="container">
+        <div class="row">
+            <div class="col theme-tab">
+                <ngb-tabset [justify]="'center'" [type]="'pills'" class="tabs tab-title">
+                    <ngb-tab *ngFor="let collection of productCollections">
+                        <ng-template ngbTabTitle>{{collection}}</ng-template>
+                        <ng-template ngbTabContent>
+                            <div class="no-slider row">
+                                <ng-container *ngFor="let product of getCollectionProducts(collection) | slice:0:8">
+                                    <div class="product-box">
+                                        <app-product-box-one [product]="product" [currency]="productService?.Currency" [thumbnail]="true" [cartModal]="true" [loader]="false">
+                                        </app-product-box-one>
+                                    </div>
+                                </ng-container>
+                            </div>
+                        </ng-template>
+                    </ngb-tab>
+                </ngb-tabset>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Tab product End -->
+
+<!-- Parallax banner start-->
+<section class="p-0">
+    <div class="full-banner parallax-banner1 parallax text-center p-left" [ngStyle]="{'background-image': 'url(assets/images/parallax/parallaxStationaries.png)'}">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="banner-contain">
+                        <h2>2020</h2>
+                        <h3>Stationaries Merchandise</h3>
+                        <h4>Sales Now</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Parallax banner End -->
+
+<!-- product slider -->
+<div class="title1 section-t-space">
+    <h4>exclusive products</h4>
+    <h2 class="title-inner1">special products</h2>
+  </div>
+<section class="section-b-space p-t-0">
+    <div class="container">
+        <div class="row">
+          <div class="col theme-tab">
+              <ngb-tabset [justify]="'center'" [type]="'pills'" class="tabs tab-title">
+                <ngb-tab *ngFor="let collection of productCollections">
+                  <ng-template ngbTabTitle>{{collection}}</ng-template>
+                  <ng-template ngbTabContent>
+                    <div class="no-slider row">
+                      <ng-container *ngFor="let product of getCollectionProducts(collection) | slice:0:8">
+                        <div class="product-box">
+                          <app-product-box-one 
+                            [product]="product" 
+                            [currency]="productService?.Currency"
+                            [thumbnail]="true"
+                            [cartModal]="true"
+                            [loader]="false">
+                          </app-product-box-one>
+                        </div>
+                      </ng-container>
+                    </div>
+                  </ng-template>
+                </ngb-tab>
+              </ngb-tabset>
+          </div>
+        </div>
+    </div>
+  </section>
+<!-- product slider end -->
+
+
+<app-newsletter></app-newsletter>
+<app-footer-one></app-footer-one>

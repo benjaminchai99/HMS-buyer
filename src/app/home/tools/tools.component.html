@@ -1,0 +1,121 @@
+<app-header-three></app-header-three>
+
+<!-- Home slider start-->
+<section class="p-0 height-85 tools_slider">
+    <owl-carousel-o [options]="HomeSliderConfig" class="home-slider">
+        <ng-template carouselSlide>
+            <div class="home text-center" [ngStyle]="{'background-image': 'url(assets/images/computer.png)'}">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="slider-contain">
+                                <div>
+                                    <h4>HELP MERCHANDISE STORE LAUNCH SALE</h4>
+                                    <h1>Electronics &</h1>
+                                    <h1>Accessories</h1>
+                                    <a [routerLink]="['/shop/collection/left/sidebar']" [queryParams]="{ category: 'computer'}" class="btn btn-solid">shop now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tools-parts" id="tools-move">
+                        <img src="assets/images/mousepad.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="tools-parts1" id="tools-move1">
+                        <img src="assets/images/mouse.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </ng-template>
+        <ng-template carouselSlide>
+            <div class="home text-center" [ngStyle]="{'background-image': 'url(assets/images/slider/keyboard.png)'}">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="slider-contain">
+                                <div>
+                                    <h4>Get all computer accessories</h4>
+                                    <h1>HERE</h1>
+                                    <a [routerLink]="['/shop/collection/left/sidebar']" [queryParams]="{ category: 'tools'}" class="btn btn-solid">shop now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tools-parts" id="tools-move2">
+                        <img src="assets/images/speaker.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </ng-template>
+    </owl-carousel-o>
+</section>
+<!-- Home slider End -->
+
+<!-- about section start-->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+                <div class="title3">
+                    <h2 class="title-inner3">welcome to HELP Merchandise Store</h2>
+                    <div class="line"></div>
+                </div>
+                <div class="about-text">
+                    <p>
+                        Find it tiring to look for computer external parts? HELP has surprised students, especially Information Technology (IT) Students by introducing Electronics and Accessories brought by HELP Merchandise Store. 
+                        Grab yours today!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about section end-->
+
+<!-- category -->
+<section class="pt-0 category-tools">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <app-collection [class]="'pt-0'" [categories]="categories" [category]="'computer'">
+                </app-collection>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- category end -->
+
+<!-- product slider start -->
+<section class="section-b-space tools-grey">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title3">
+                    <h2 class="title-inner3">Popular products</h2>
+                    <div class="line"></div>
+                </div>
+                <owl-carousel-o [options]="ProductSliderConfig" class="product-5 product-m no-arrow">
+                    <ng-container *ngFor="let product of products">
+                        <ng-template carouselSlide>
+                            <div class="product-box product-wrap">
+                                <app-product-box-three [product]="product" [currency]="productService?.Currency">
+                                </app-product-box-three>
+                            </div>
+                        </ng-template>
+                    </ng-container>
+                </owl-carousel-o>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- product slider end -->
+
+
+<!-- product section start -->
+
+<!-- product section end -->
+
+
+<!-- Cart Open To Top Side-->
+<app-newsletter></app-newsletter>
+<app-footer-one></app-footer-one>

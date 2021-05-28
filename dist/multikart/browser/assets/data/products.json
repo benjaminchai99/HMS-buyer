@@ -1,0 +1,1805 @@
+[{
+        "id": 1,
+        "title": "HELP Hoddie (Navy Blue x Red)",
+        "description": "HELP's Hoodie in Naxy Blue and Red is designed by HELP Community",
+        "type": "fashion",
+        "brand": "HELP Merchandise",
+        "collection": ["new products", "best sellers", "on sale"],
+        "category": "Unisex",
+        "price": 80,
+        "sale": true,
+        "discount": "20",
+        "stock": 5,
+        "new": true,
+        "tags": [
+            "New",
+            "S",
+            "M",
+            "3XL",
+            "Navy Blue",
+            "Red",
+            "HELP Merchandise"
+        ],
+        "variants": [{
+                "variant_id": 101,
+                "id": 1,
+                "sku": "sku1",
+                "size": "s",
+                "color": "navy blue",
+                "image_id": 111
+            }
+        ],
+        "images": [{
+                "image_id": 111,
+                "id": 1,
+                "alt": "navy blue",
+                "src": "assets/images/product/fashion/hoodie.png",
+                "variant_id": [
+                    101,
+                    104
+                ]
+            }
+        ]
+    }, {
+        "id": 2,
+        "title": "HELP Merchandise T-Shirt",
+        "description": "HELP unique design T-Shirt made with 100% cotton",
+        "type": "fashion",
+        "brand": "HELP Merchandise",
+        "collection": ["best sellers", "featured products", "on sale"],
+        "category": "Unisex",
+        "price": 50,
+        "sale": true,
+        "discount": "20",
+        "stock": 2,
+        "new": false,
+        "tags": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "grey",
+            "HELP Merchandise"
+        ],
+        "variants": [{
+                "variant_id": 201,
+                "id": 2,
+                "sku": "sku1",
+                "size": "s",
+                "color": "grey",
+                "image_id": 211
+            }
+        ],
+        "images": [{
+                "image_id": 211,
+                "id": 2,
+                "alt": "grey",
+                "src": "assets/images/product/fashion/tshirt.png",
+                "variant_id": [
+                    201,
+                    204,
+                    207
+                ]
+            }
+        ]
+    }, {
+        "id": 3,
+        "title": "HELP Art Community Tshirt",
+        "description": "A unique hoodie designed by the Department of Arts",
+        "type": "fashion",
+        "brand": "HELP Merchandise",
+        "collection": ["featured products", "new products", "best sellers", "on sale"],
+        "category": "Unisex",
+        "price": 80,
+        "sale": true,
+        "discount": "20",
+        "stock": 0,
+        "new": true,
+        "tags": [
+            "S",
+            "L",
+            "M",
+            "black",
+            "HELP Merchandise"
+        ],
+        "variants": [{
+                "variant_id": 301,
+                "id": 3,
+                "sku": "sku3",
+                "size": "l",
+                "color": "black",
+                "image_id": 311
+            }
+        ],
+        "images": [{
+                "image_id": 311,
+                "id": 3,
+                "alt": "black",
+                "src": "assets/images/product/fashion/comm.png",
+                "variant_id": [
+                    301,
+                    303
+                ]
+            }
+        ]
+    }, {
+        "id": 4,
+        "title": "HELP Psychology Hoodie",
+        "description": "A unique hoodie designed by a group of passionate psychology students",
+        "type": "fashion",
+        "brand": "HELP Merchandise",
+        "collection": ["new products", "on sale", "best sellers"],
+        "category": "Unisex",
+        "price": 80,
+        "sale": true,
+        "discount": "20",
+        "stock": 10,
+        "new": true,
+        "tags": [
+            "S",
+            "L",
+            "black",
+            "HELP Merchandise"
+        ],
+        "variants": [{
+                "variant_id": 401,
+                "id": 4,
+                "sku": "sku4",
+                "size": "s",
+                "color": "black",
+                "image_id": 411
+            }
+        ],
+        "images": [{
+                "image_id": 411,
+                "id": 4,
+                "alt": "black",
+                "src": "assets/images/product/fashion/hood.png",
+                "variant_id": [
+                    401,
+                    402
+                ]
+            }
+        ]
+    }, {
+        "id": 5,
+        "title": "HELP Psychology T-Shirt",
+        "description": "A HELP Merchandise T-Shirt designed by the Department Psychology and is made with 100% cotton",
+        "type": "fashion",
+        "brand": "HELP Merchandise",
+        "collection": ["featured products", "on sale", "new products"],
+        "category": "Unisex",
+        "price": 35,
+        "sale": true,
+        "discount": "20",
+        "stock": 4,
+        "new": true,
+        "tags": [
+            "S",
+            "M",
+            "L",
+            "black",
+            "HELP Merchandise"
+        ],
+        "variants": [
+            {
+                "variant_id": 503,
+                "id": 5,
+                "sku": "sku5s",
+                "size": "m",
+                "color": "black",
+                "image_id": 512
+            },
+            {
+                "variant_id": 504,
+                "id": 5,
+                "sku": "sku5l",
+                "size": "l",
+                "color": "black",
+                "image_id": 512
+            }
+        ],
+        "images": [{
+                "image_id": 511,
+                "id": 5,
+                "alt": "black",
+                "src": "assets/images/product/fashion/phsc.png",
+                "variant_id": [
+                    501,
+                    503
+                ]
+            }
+        ]
+    }, {
+        "id": 6,
+        "title": "HELP Merchandise Cap",
+        "description": "A trendy cap that is designed by our wonderful group of students, comes in various sizes",
+        "type": "fashion",
+        "brand": "HELP Merchandise",
+        "collection": ["best sellers", "on sale", "new products"],
+        "category": "Unisex",
+        "price": 60,
+        "sale": false,
+        "discount": "20",
+        "stock": 30,
+        "new": true,
+        "tags": [
+            "new",
+            "wheat",
+            "black",
+            "HELP Merchandise"
+        ],
+        "variants": [{
+                "variant_id": 601,
+                "id": 6,
+                "sku": "sku6",
+                "size": "s",
+                "color": "wheat",
+                "image_id": 611
+            },
+            {
+                "variant_id": 602,
+                "id": 6,
+                "sku": "skul6",
+                "size": "s",
+                "color": "black",
+                "image_id": 612
+            }
+        ],
+        "images": [{
+                "image_id": 611,
+                "id": 6,
+                "alt": "wheat",
+                "src": "assets/images/product/fashion/cap1.png",
+                "variant_id": [
+                    601,
+                    604
+                ]
+            },
+            {
+                "image_id": 612,
+                "id": 6,
+                "alt": "black",
+                "src": "assets/images/product/fashion/cap2.png",
+                "variant_id": [
+                    602,
+                    605
+                ]
+            }
+        ]
+    }, {
+        "id": 7,
+        "title": "HELP Sweat Pants",
+        "description": "A HELP designed sweat pants that comes in various sizes",
+        "type": "fashion",
+        "brand": "HELP Merchandise",
+        "collection": ["new products", "featured products", "on sale"],
+        "category": "Women",
+        "price": 90,
+        "sale": true,
+        "discount": "20",
+        "stock": 15,
+        "new": true,
+        "tags": [
+            "s",
+            "m",
+            "L",
+            "HELP Merchandise",
+            "maroon",
+            "white",
+            "grey"
+        ],
+        "variants": [{
+                "variant_id": 701,
+                "id": 7,
+                "sku": "sku7",
+                "size": "s",
+                "color": "maroon",
+                "image_id": 711
+            },
+            {
+                "variant_id": 702,
+                "id": 7,
+                "sku": "skul7",
+                "size": "s",
+                "color": "white",
+                "image_id": 712
+            },
+            {
+                "variant_id": 703,
+                "id": 7,
+                "sku": "sku7s",
+                "size": "s",
+                "color": "grey",
+                "image_id": 713
+            }
+        ],
+        "images": [{
+                "image_id": 711,
+                "id": 7,
+                "alt": "maroon",
+                "src": "assets/images/product/fashion/red.png",
+                "variant_id": [
+                    701,
+                    704
+                ]
+            },
+            {
+                "image_id": 712,
+                "id": 7,
+                "alt": "white",
+                "src": "assets/images/product/fashion/white.png",
+                "variant_id": [
+                    702,
+                    705
+                ]
+            },
+            {
+                "image_id": 713,
+                "id": 7,
+                "alt": "grey",
+                "src": "assets/images/product/fashion/grey.png",
+                "variant_id": [
+                    703,
+                    706
+                ]
+            }
+        ]
+    }, {
+        "id": 8,
+        "title": "HELP Merchandise Gym Pants",
+        "description": "For all HELP gym lovers out there, grab your gym pants that are designed by our ITSC students now",
+        "type": "fashion",
+        "brand": "HELP Merchandise",
+        "collection": ["new products", "featured products", "on sale"],
+        "category": "Women",
+        "price": 90,
+        "sale": true,
+        "discount": "20",
+        "stock": 15,
+        "new": false,
+        "tags": [
+            "s",
+            "m",
+            "purple",
+            "HELP Merchandise"
+        ],
+        "variants": [{
+                "variant_id": 801,
+                "id": 8,
+                "sku": "sku8",
+                "size": "s",
+                "color": "purple",
+                "image_id": 811
+            }
+        ],
+        "images": [{
+                "image_id": 811,
+                "id": 8,
+                "alt": "purple",
+                "src": "assets/images/product/fashion/gym.png",
+                "variant_id": [
+                    801,
+                    804
+                ]
+            }
+            
+        ]
+    }, {
+        "id": 9,
+        "title": "HELP Merchandise Socks",
+        "description": "Grab our new 100% cotton socks with a our HELP Merchandise Store logo now",
+        "type": "fashion",
+        "brand": "HELP Merchandise",
+        "collection": ["featured products", "new products", "on sale"],
+        "category": "Women",
+        "price": 20,
+        "sale": false,
+        "discount": "20",
+        "stock": 36,
+        "new": false,
+        "tags": [
+            "new",
+            "m",
+            "l",
+            "rainbow",
+            "HELP Merchandise"
+        ],
+        "variants": [{
+                "variant_id": 901,
+                "id": 9,
+                "sku": "sku9",
+                "size": "m",
+                "color": "rainbow",
+                "image_id": 911
+            }
+        ],
+        "images": [{
+                "image_id": 911,
+                "id": 9,
+                "alt": "rainbow",
+                "src": "assets/images/product/fashion/socks.png",
+                "variant_id": [
+                    901,
+                    902
+                ]
+            }
+        ]
+    }, {
+        "id": 43,
+        "title": "HELP File",
+        "description": "A file to store all your important notes and documents",
+        "type": "stationaries",
+        "brand": "HELP Merchandise",
+        "collection": ["best sellers", "new products"],
+        "category": "stationaries",
+        "price": 20,
+        "sale": true,
+        "discount": "20",
+        "stock": 4,
+        "new": true,
+        "tags": [
+            "new",
+            "white",
+            "decathlon",
+            "HELP"
+        ],
+        "variants": [{
+                "variant_id": 4301,
+                "id": 43,
+                "sku": "sku43",
+                "size": "35",
+                "color": "white",
+                "image_id": 4311
+            }
+        ],
+        "images": [{
+                "image_id": 4311,
+                "id": 43,
+                "alt": "white",
+                "src": "assets/images/product/shoes/file.png",
+                "variant_id": [
+                    4301,
+                    4303,
+                    4305
+                ]
+            }
+        ]
+    }, {
+        "id": 44,
+        "title": "HELP Notebook",
+        "description": "A notebook for you to create all your beautiful memories",
+        "type": "stationaries",
+        "brand": "HELP Merchandise",
+        "collection": ["best sellers", "new products"],
+        "category": "stationaries",
+        "price": 30,
+        "sale": false,
+        "discount": "20",
+        "stock": 50,
+        "new": true,
+        "tags": [
+            "nike",
+            "green",
+            "blue",
+            "36",
+            "37",
+            "38",
+            "HELP Merchandise"
+        ],
+        "variants": [{
+                "variant_id": 4401,
+                "id": 44,
+                "sku": "sku44",
+                "size": "36",
+                "color": "blue",
+                "image_id": 4411
+            },
+            {
+                "variant_id": 4402,
+                "id": 44,
+                "sku": "skumg44",
+                "size": "36",
+                "color": "green",
+                "image_id": 4412
+            }
+        ],
+        "images": [{
+                "image_id": 4411,
+                "id": 44,
+                "alt": "blue",
+                "src": "assets/images/product/shoes/blue.png",
+                "variant_id": [
+                    4401,
+                    4403,
+                    4405
+                ]
+            },
+            {
+                "image_id": 4412,
+                "id": 44,
+                "alt": "green",
+                "src": "assets/images/product/shoes/green.png",
+                "variant_id": [
+                    4402,
+                    4404,
+                    4406
+                ]
+            }
+        ]
+    }, {
+        "id": 45,
+        "title": "HELP Pen",
+        "description": "Start your writing journey with HELP Merchandise Pen",
+        "type": "stationaries",
+        "brand": "HELP Merchandise",
+        "collection": ["best sellers","featured products"],
+        "category": "stationaries",
+        "price": 5,
+        "sale": true,
+        "discount": "20",
+        "stock": 60,
+        "new": true,
+        "tags": [
+            "36",
+            "37",
+            "white",
+            "HELP Merchandise"
+        ],
+        "variants": [{
+                "variant_id": 4501,
+                "id": 45,
+                "sku": "sku45",
+                "size": "36",
+                "color": "white",
+                "image_id": 4511
+            }
+        ],
+        "images": [{
+                "image_id": 4511,
+                "id": 45,
+                "alt": "white",
+                "src": "assets/images/product/shoes/pen.png",
+                "variant_id": [
+                    4501,
+                    4504
+                ]
+            }
+        ]
+    }, {
+        "id": 46,
+        "title": "HELP Laptop Case",
+        "description": "Protecting your laptop with HELP",
+        "type": "stationaries",
+        "brand": "HELP Merchandise",
+        "collection": ["best sellers","featured products"],
+        "category": "stationaries",
+        "price": 50,
+        "sale": true,
+        "discount": "20",
+        "stock": 2,
+        "new": true,
+        "tags": [
+            "black",
+            "36",
+            "37",
+            "HELP Merchandise"
+        ],
+        "variants": [{
+                "variant_id": 4601,
+                "id": 46,
+                "sku": "sku46",
+                "size": "36",
+                "color": "black",
+                "image_id": 4611
+            }
+        ],
+        "images": [{
+                "image_id": 4611,
+                "id": 46,
+                "alt": "black",
+                "src": "assets/images/product/shoes/laptop.png",
+                "variant_id": [
+                    4601,
+                    4604
+                ]
+            }
+        ]
+    }, {
+        "id": 61,
+        "title": "HELP Card Holder",
+        "description": "The best way to place your cards. 100% Leather.",
+        "type": "accessories",
+        "brand": "HELP Merchandise",
+        "collection": ["new arrival"],
+        "category": "bags",
+        "price": 35,
+        "sale": false,
+        "discount": "20",
+        "stock": 15,
+        "new": true,
+        "tags": [
+            "maroon",
+            "ck",
+            "HELP Merchandise"
+        ],
+        "variants": [{
+                "variant_id": 6101,
+                "id": 61,
+                "sku": "sku61",
+                "color": "maroon",
+                "image_id": 6111
+            }
+        ],
+        "images": [{
+                "image_id": 6111,
+                "id": 61,
+                "alt": "maroon",
+                "src": "assets/images/product/bags/card.png",
+                "variant_id": [
+                    6101
+                ]
+            }
+        ]
+    }, {
+        "id": 62,
+        "title": "HELP Tag Holder",
+        "description": "Hold on your Student ID or Staff ID card with HELP Tag Holder",
+        "type": "accessories",
+        "brand": "HELP Merchandise",
+        "collection": ["trending product", "best sellers"],
+        "category": "bags",
+        "price": 25,
+        "sale": true,
+        "discount": "20",
+        "stock": 15,
+        "new": true,
+        "tags": [
+            "lightblue",
+            "caprese",
+            "HELP Merchandise"
+        ],
+        "variants": [
+            {
+                "variant_id": 6202,
+                "id": 62,
+                "sku": "skumg62",
+                "color": "lightblue",
+                "image_id": 6212
+            }
+        ],
+        "images": [{
+                "image_id": 6211,
+                "id": 62,
+                "alt": "lightblue",
+                "src": "assets/images/product/bags/tag.png",
+                "variant_id": [
+                    6201
+                ]
+            }
+        ]
+    }, {
+        "id": 63,
+        "title": "HELP Car Sticker",
+        "description": "Show off yourself as one of the HELP Member with HELP Car Sticker",
+        "type": "accessories",
+        "brand": "HELP Merchandise",
+        "collection": ["new arrival"],
+        "category": "bags",
+        "price": 10,
+        "sale": true,
+        "discount": "20",
+        "stock": 0,
+        "new": true,
+        "tags": [
+            "white",
+            "caprese",
+            "new",
+            "HELP Merchandise"
+        ],
+        "variants": [{
+                "variant_id": 6301,
+                "id": 63,
+                "sku": "sku63",
+                "color": "white",
+                "image_id": 6311
+            }
+        ],
+        "images": [
+            {
+                "image_id": 6312,
+                "id": 63,
+                "alt": "white",
+                "src": "assets/images/product/bags/car.png",
+                "variant_id": [
+                    6302
+                ]
+            }
+        ]
+    }, {
+        "id": 64,
+        "title": "HELP Pendrive",
+        "description": "Store your most memorable memories inside the 64GB HELP Pendrive",
+        "type": "accessories",
+        "brand": "HELP Merchandise",
+        "collection": ["new arrival"],
+        "category": "bags",
+        "price": 60,
+        "sale": true,
+        "discount": "20",
+        "stock": 5,
+        "new": true,
+        "tags": [
+            "white",
+            "black",
+            "zara",
+            "HELP Merchandise"
+        ],
+        "variants": [{
+                "variant_id": 6401,
+                "id": 64,
+                "sku": "sku64",
+                "color": "white",
+                "image_id": 6411
+            },
+            {
+                "variant_id": 6402,
+                "id": 64,
+                "sku": "skumg64",
+                "color": "black",
+                "image_id": 6412
+            }
+        ],
+        "images": [{
+                "image_id": 6411,
+                "id": 64,
+                "alt": "cadetblue",
+                "src": "assets/images/product/bags/white.png",
+                "variant_id": [
+                    6401
+                ]
+            },
+            {
+                "image_id": 6412,
+                "id": 64,
+                "alt": "black",
+                "src": "assets/images/product/bags/black.png",
+                "variant_id": [
+                    6402
+                ]
+            }
+        ]
+    }, {
+        "id": 79,
+        "title": "Dreamy Crop Top",
+        "description": "100% Crop Top. Available in different colours.",
+        "type": "women-fashion",
+        "brand": "navy",
+        "collection": ["new arrival"],
+        "category": "watch",
+        "price": 60,
+        "sale": false,
+        "discount": "20",
+        "stock": 15,
+        "new": true,
+        "tags": [
+            "new",
+            "white",
+            "black",
+            "titan",
+            "navy"
+        ],
+        "variants": [{
+            "variant_id": 7901,
+            "id": 79,
+            "sku": "sku79",
+            "color": "white",
+            "image_id": 7911
+        },{
+            "variant_id": 7902,
+            "id": 79,
+            "sku": "sku79",
+            "color": "black",
+            "image_id": 7912
+        }],
+        "images": [{
+                "image_id": 7911,
+                "id": 79,
+                "alt": "silver",
+                "src": "assets/images/product/watch/croptop.png",
+                "variant_id": [
+                    7901
+                ]
+            },
+            {
+                "image_id": 7912,
+                "id": 79,
+                "alt": "blackb",
+                "src": "assets/images/product/watch/croptop2.png",
+                "variant_id": [
+                    7902
+                ]
+            }
+        ]
+    }, {
+        "id": 80,
+        "title": "Sleeves Top",
+        "description": "A must to have during the summer, or .... maybe Malaysia?",
+        "type": "women-fashion",
+        "brand": "navy",
+        "collection": ["new arrival"],
+        "category": "watch",
+        "price": 45,
+        "sale": false,
+        "discount": "20",
+        "stock": 15,
+        "new": true,
+        "tags": [
+            "new",
+            "white",
+            "pink",
+            "brown",
+            "yellow"
+        ],
+        "variants": [{
+                "variant_id": 8001,
+                "id": 80,
+                "sku": "sku80",
+                "color": "white",
+                "image_id": 8011
+            },
+            {
+                "variant_id": 8002,
+                "id": 80,
+                "sku": "sku80",
+                "color": "pink",
+                "image_id": 8012
+            },
+            {
+                "variant_id": 8003,
+                "id": 80,
+                "sku": "sku80",
+                "color": "brown",
+                "image_id": 8013
+            },
+            {
+                "variant_id": 8004,
+                "id": 80,
+                "sku": "sku80",
+                "color": "yellow",
+                "image_id": 8014
+            }
+        ],
+        "images": [{
+                "image_id": 8011,
+                "id": 80,
+                "alt": "white",
+                "src": "assets/images/product/watch/white.png",
+                "variant_id": [
+                    8001
+                ]
+            },
+            {
+                "image_id": 8012,
+                "id": 80,
+                "alt": "pink",
+                "src": "assets/images/product/watch/pink.png",
+                "variant_id": [
+                    8002
+                ]
+            },
+            {
+                "image_id": 8013,
+                "id": 80,
+                "alt": "brown",
+                "src": "assets/images/product/watch/brown.png",
+                "variant_id": [
+                    8003
+                ]
+            },
+            {
+                "image_id": 8014,
+                "id": 80,
+                "alt": "yellow",
+                "src": "assets/images/product/watch/yellow.png",
+                "variant_id": [
+                    8004
+                ]
+            }
+        ]
+    }, {
+        "id": 81,
+        "title": "Flowery Long Dress",
+        "description": "Be the girl you are with our best seller",
+        "type": "women-fashion",
+        "brand": "korean",
+        "collection": ["new arrival"],
+        "category": "watch",
+        "price": 80,
+        "sale": true,
+        "discount": "20",
+        "stock": 15,
+        "new": true,
+        "tags": [
+            "flower",
+            "yellow",
+            "new",
+            "korean"
+        ],
+        "variants": [{
+            "variant_id": 8101,
+            "id": 81,
+            "sku": "sku81",
+            "color": "yellow",
+            "image_id": 8111
+        }],
+        "images": [{
+                "image_id": 8111,
+                "id": 81,
+                "alt": "navy",
+                "src": "assets/images/product/watch/flower.png",
+                "variant_id": [
+                    8101
+                ]
+            }
+        ]
+    }, {
+        "id": 82,
+        "title": "Korean Off Shoulder",
+        "description": "Be one of the ONNIs with this off shoulder top",
+        "type": "women-fashion",
+        "brand": "korean",
+        "collection": ["new arrival"],
+        "category": "watch",
+        "price": 530,
+        "sale": true,
+        "discount": "12",
+        "stock": 15,
+        "new": true,
+        "tags": [
+            "bisque",
+            "korean",
+            "pink"
+        ],
+        "variants": [{
+            "variant_id": 8201,
+            "id": 82,
+            "sku": "sku82",
+            "color": "pink",
+            "image_id": 8211
+        }],
+        "images": [{
+            "image_id": 8211,
+            "id": 82,
+            "alt": "pink",
+            "src": "assets/images/product/watch/OFF.png",
+            "variant_id": [
+                8201
+            ]
+        }]
+    }, {
+        "id": 83,
+        "title": "American T-Shirt",
+        "description": "100% cotton. Grab yours today and be trendy",
+        "type": "women-fashion",
+        "brand": "american",
+        "collection": ["new arrival", "on sale"],
+        "category": "watch",
+        "price": 420,
+        "sale": true,
+        "discount": "48",
+        "stock": 30,
+        "new": true,
+        "tags": [
+            "coral",
+            "american"
+        ],
+        "variants": [{
+                "variant_id": 8301,
+                "id": 83,
+                "sku": "sku83",
+                "color": "coral",
+                "image_id": 8311
+            }
+        ],
+        "images": [{
+                "image_id": 8311,
+                "id": 83,
+                "alt": "coral",
+                "src": "assets/images/product/watch/coral.png",
+                "variant_id": [
+                    8301
+                ]
+            }
+        ]
+    }, {
+        "id": 84,
+        "title": "Korean Singlet Dress",
+        "description": "Girls MUST dress during the summer (or in hot weathers). ",
+        "type": "women-fashion",
+        "brand": "korean",
+        "collection": ["new arrival", "on sale"],
+        "category": "watch",
+        "price": 225,
+        "sale": false,
+        "discount": "40",
+        "stock": 15,
+        "new": true,
+        "tags": [
+            "black",
+            "korean",
+            "dress"
+        ],
+        "variants": [{
+                "variant_id": 8401,
+                "id": 84,
+                "sku": "sku84",
+                "color": "black",
+                "image_id": 8411
+            }
+        ],
+        "images": [{
+                "image_id": 8411,
+                "id": 84,
+                "alt": "black",
+                "src": "assets/images/product/watch/singlet.png",
+                "variant_id": [
+                    8401
+                ]
+            }
+        ]
+    }, {
+        "id": 85,
+        "title": "American Cardigan",
+        "description": "A cardigan that brings up your class. 100% comfy",
+        "type": "women-fashion",
+        "brand": "american",
+        "collection": ["best sellers","new arrival"],
+        "category": "watch",
+        "price": 174,
+        "sale": false,
+        "discount": "10",
+        "stock": 15,
+        "new": true,
+        "tags": [
+            "brown",
+            "american"
+        ],
+        "variants": [{
+                "variant_id": 8501,
+                "id": 85,
+                "sku": "sku85",
+                "color": "brown",
+                "image_id": 8511
+            }
+        ],
+        "images": [{
+                "image_id": 8511,
+                "id": 85,
+                "alt": "wheat",
+                "src": "assets/images/product/watch/cardigan.png",
+                "variant_id": [
+                    8501
+                ]
+            }
+        ]
+    },{
+        "id": 151,
+        "title": "Korean Cardigan",
+        "description": "Dress like an OPPA in Malaysia",
+        "type": "men-fashion",
+        "brand": "korean",
+        "collection": ["on sale"],
+        "category": "furniture",
+        "price": 250,
+        "sale": false,
+        "discount": "20",
+        "stock": 6,
+        "new": true,
+        "tags": [
+            "wheat",
+            "korean"
+        ],
+        "variants": [{
+                "variant_id": 15101,
+                "id": 151,
+                "sku": "chair15",
+                "color": "wheat",
+                "image_id": 15111
+            }
+        ],
+        "images": [{
+                "image_id": 15111,
+                "id": 151,
+                "alt": "saddlebrown",
+                "src": "assets/images/product/furniture/cardiganMen.png",
+                "variant_id": [
+                    15101
+                ]
+            }
+        ]
+    }, {
+        "id": 152,
+        "title": "American Cardigan",
+        "description": "Dress trendy, be fancy.",
+        "type": "men-fashion",
+        "brand": "american",
+        "collection": ["on sale"],
+        "category": "furniture",
+        "price": 90,
+        "sale": false,
+        "discount": "20",
+        "stock": 1,
+        "new": false,
+        "tags": [
+            "saddlebrown",
+            "american"
+        ],
+        "variants": [
+            {
+                "variant_id": 15202,
+                "id": 152,
+                "sku": "chair15",
+                "color": "saddlebrown",
+                "image_id": 15212
+            }
+        ],
+        "images": [
+            {
+                "image_id": 15212,
+                "id": 152,
+                "alt": "saddlebrown",
+                "src": "assets/images/product/furniture/usCardigan.png",
+                "variant_id": [
+                    15202
+                ]
+            }
+        ]
+    }, {
+        "id": 153,
+        "title": "Polo Tshirt",
+        "description": "100% Cotton, Comfy, Comfort",
+        "type": "men-fashion",
+        "brand": "polo",
+        "collection": ["on sale"],
+        "category": "furniture",
+        "price": 40,
+        "sale": false,
+        "discount": "20",
+        "stock": 0,
+        "new": true,
+        "tags": [
+            "gray",
+            "polo"
+        ],
+        "variants": [{
+                "variant_id": 15301,
+                "id": 153,
+                "sku": "chair15",
+                "color": "gray",
+                "image_id": 15311
+            }
+        ],
+        "images": [{
+                "image_id": 15311,
+                "id": 153,
+                "alt": "gray",
+                "src": "assets/images/product/furniture/polo.png",
+                "variant_id": [
+                    15301
+                ]
+            }
+        ]
+    }, {
+        "id": 154,
+        "title": "Hoodie",
+        "description": "Be trendy with our hoodie.",
+        "type": "men-fashion",
+        "brand": "polo",
+        "collection": ["on sale"],
+        "category": "furniture",
+        "price": 89,
+        "sale": false,
+        "discount": "20",
+        "stock": 15,
+        "new": true,
+        "tags": [
+            "purple",
+            "red",
+            "black",
+            "green",
+            "hoodie"
+        ],
+        "variants": [{
+                "variant_id": 15401,
+                "id": 154,
+                "sku": "chair15",
+                "color": "purple",
+                "image_id": 15411
+            },
+            {
+                "variant_id": 15402,
+                "id": 154,
+                "sku": "chair15",
+                "color": "red",
+                "image_id": 15412
+            },
+            {
+                "variant_id": 15403,
+                "id": 154,
+                "sku": "chair15",
+                "color": "black",
+                "image_id": 15413
+            },
+            {
+                "variant_id": 15404,
+                "id": 154,
+                "sku": "chair15",
+                "color": "green",
+                "image_id": 15414
+            }
+        ],
+        "images": [{
+                "image_id": 15411,
+                "id": 154,
+                "alt": "purple",
+                "src": "assets/images/product/furniture/purple.png",
+                "variant_id": [
+                    15401
+                ]
+            },
+            {
+                "image_id": 15412,
+                "id": 154,
+                "alt": "red",
+                "src": "assets/images/product/furniture/red.png",
+                "variant_id": [
+                    15402
+                ]
+            },
+            {
+                "image_id": 15413,
+                "id": 154,
+                "alt": "black",
+                "src": "assets/images/product/furniture/black.png",
+                "variant_id": [
+                    15403
+                ]
+            },
+            {
+                "image_id": 15414,
+                "id": 154,
+                "alt": "green",
+                "src": "assets/images/product/furniture/green.png",
+                "variant_id": [
+                    15404
+                ]
+            }
+        ]
+    }, {
+        "id": 155,
+        "title": "Fila Tshirt",
+        "description": "Trendy Tshirt to increase your taste",
+        "type": "men-fashion",
+        "brand": "fila",
+        "collection": ["on sale", "new arrival"],
+        "category": "furniture",
+        "price": 79,
+        "sale": false,
+        "discount": "20",
+        "stock": 0,
+        "new": true,
+        "tags": [
+            "new",
+            "white",
+            "fila"
+        ],
+        "variants": [{
+                "variant_id": 15501,
+                "id": 155,
+                "sku": "chair15",
+                "color": "white",
+                "image_id": 15511
+            }
+        ],
+        "images": [{
+                "image_id": 15511,
+                "id": 155,
+                "alt": "coral",
+                "src": "assets/images/product/furniture/fila.png",
+                "variant_id": [
+                    15501
+                ]
+            }
+        ]
+    }, {
+        "id": 156,
+        "title": "Fred Perry Tshirt",
+        "description": "Stylish Tshirt to boost up your day",
+        "type": "men-fashion",
+        "brand": "fred perry",
+        "collection": ["on sale", "new arrival"],
+        "category": "furniture",
+        "price": 420,
+        "sale": true,
+        "discount": "10",
+        "stock": 20,
+        "new": false,
+        "tags": [
+            "black",
+            "burlywood",
+            "fred perry"
+        ],
+        "variants": [{
+                "variant_id": 15601,
+                "id": 156,
+                "sku": "chair15",
+                "color": "black",
+                "image_id": 15611
+            }
+        ],
+        "images": [{
+                "image_id": 15611,
+                "id": 156,
+                "alt": "black",
+                "src": "assets/images/product/furniture/fp.png",
+                "variant_id": [
+                    15601
+                ]
+            }
+        ]
+    }, {
+        "id": 157,
+        "title": "Rock and Roll Tshirt",
+        "description": "Stylish T-Shirt",
+        "type": "men-fashion",
+        "brand": "casacraft",
+        "collection": ["on sale", "new arrival"],
+        "category": "furniture",
+        "price": 99,
+        "sale": true,
+        "discount": "20",
+        "stock": 2,
+        "new": false,
+        "tags": [
+            "black",
+            "rock and roll"
+        ],
+        "variants": [{
+                "variant_id": 15701,
+                "id": 157,
+                "sku": "chair15",
+                "color": "black",
+                "image_id": 15711
+            }
+        ],
+        "images": [{
+                "image_id": 15711,
+                "id": 157,
+                "alt": "white",
+                "src": "assets/images/product/furniture/rnr.png",
+                "variant_id": [
+                    15701
+                ]
+            }
+        ]
+    }, {
+        "id": 158,
+        "title": "American Jacket",
+        "description": "A MUST for men",
+        "type": "men-fashion",
+        "brand": "american",
+        "collection": ["on sale", "new arrival"],
+        "category": "furniture",
+        "price": 89,
+        "sale": true,
+        "discount": "20",
+        "stock": 25,
+        "new": false,
+        "tags": [
+            "dark blue",
+            "american"
+        ],
+        "variants": [{
+                "variant_id": 15801,
+                "id": 158,
+                "sku": "chair15",
+                "color": "dark blue",
+                "image_id": 15811
+            }
+        ],
+        "images": [{
+                "image_id": 15811,
+                "id": 158,
+                "alt": "darkslategrey",
+                "src": "assets/images/product/furniture/jacket.png",
+                "variant_id": [
+                    15801
+                ]
+            }
+        ]
+    },{
+        "id": 177,
+        "title": "Wireless Keyboard",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+        "type": "computer",
+        "brand": "Logitech",
+        "collection": ["on sale"],
+        "category": "tools",
+        "price": 100,
+        "sale": true,
+        "discount": "20",
+        "stock": 20,
+        "new": true,
+        "tags": [
+            "logitech",
+            "keyboard"
+        ],
+        "variants": [{
+            "variant_id": 17701,
+            "id": 177,
+            "sku": "tools5",
+            "image_id": 17711
+        }],
+        "images": [{
+            "image_id": 17711,
+            "id": 177,
+            "alt": "tools",
+            "src": "assets/images/product/tools/keyboard.png",
+            "variant_id": [
+                17701
+            ]
+        }]
+    }, {
+        "id": 178,
+        "title": "Wired Keyboard",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+        "type": "computer",
+        "brand": "IBM",
+        "collection": ["on sale"],
+        "category": "tools",
+        "price": 70,
+        "sale": false,
+        "discount": "20",
+        "stock": 15,
+        "new": false,
+        "tags": [
+            "IBM",
+            "keyboard"
+        ],
+        "variants": [{
+            "variant_id": 17801,
+            "id": 178,
+            "sku": "tools5",
+            "image_id": 17811
+        }],
+        "images": [{
+            "image_id": 17811,
+            "id": 178,
+            "alt": "tools",
+            "src": "assets/images/product/tools/wiredBoard.png",
+            "variant_id": [
+                17801
+            ]
+        }]
+    }, {
+        "id": 179,
+        "title": "Wireless Mouse",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+        "type": "computer",
+        "brand": "Alcatroz",
+        "collection": ["on sale"],
+        "category": "tools",
+        "price":56,
+        "sale": false,
+        "discount": "20",
+        "stock": 20,
+        "new": false,
+        "tags": [
+            "Alcatroz",
+            "mouse"
+        ],
+        "variants": [{
+            "variant_id": 17901,
+            "id": 179,
+            "sku": "tools5",
+            "image_id": 17911
+        }],
+        "images": [{
+            "image_id": 17911,
+            "id": 179,
+            "alt": "tools",
+            "src": "assets/images/product/tools/wirelessM.png",
+            "variant_id": [
+                17901
+            ]
+        }]
+    }, {
+        "id": 180,
+        "title": "Wired Mouse",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+        "type": "computer",
+        "brand": "logitech",
+        "collection": ["on sale"],
+        "category": "tools",
+        "price": 50,
+        "sale": true,
+        "discount": "20",
+        "stock": 5,
+        "new": true,
+        "tags": [
+            "wired",
+            "mouse",
+            "logitech"
+        ],
+        "variants": [{
+            "variant_id": 18001,
+            "id": 180,
+            "sku": "tools56",
+            "image_id": 18011
+        }],
+        "images": [{
+            "image_id": 18011,
+            "id": 180,
+            "alt": "tools",
+            "src": "assets/images/product/tools/wiredMouse.png",
+            "variant_id": [
+                18001
+            ]
+        }]
+    }, {
+        "id": 181,
+        "title": "Mac Monitor",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+        "type": "computer",
+        "brand": "apple",
+        "collection": ["on sale"],
+        "category": "tools",
+        "price": 999,
+        "sale": true,
+        "discount": "20",
+        "stock": 30,
+        "new": false,
+        "tags": [
+            "apple",
+            "monitor"
+        ],
+        "variants": [{
+            "variant_id": 18101,
+            "id": 181,
+            "sku": "tools56",
+            "image_id": 18111
+        }],
+        "images": [{
+            "image_id": 18111,
+            "id": 181,
+            "alt": "tools",
+            "src": "assets/images/product/tools/mac.png",
+            "variant_id": [
+                18101
+            ]
+        }]
+    }, {
+        "id": 182,
+        "title": "Windows Monitor",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+        "type": "computer",
+        "brand": "windows",
+        "collection": ["on sale"],
+        "category": "tools",
+        "price": 490,
+        "sale": true,
+        "discount": "5",
+        "stock": 2,
+        "new": true,
+        "tags": [
+            "windows",
+            "monitor"
+        ],
+        "variants": [{
+            "variant_id": 18201,
+            "id": 182,
+            "sku": "tools56",
+            "image_id": 18211
+        }],
+        "images": [{
+            "image_id": 18211,
+            "id": 182,
+            "alt": "tools",
+            "src": "assets/images/product/tools/windows.png",
+            "variant_id": [
+                18201
+            ]
+        }]
+    }, {
+        "id": 183,
+        "title": "Wired Speaker",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+        "type": "computer",
+        "brand": "HiFi",
+        "collection": ["new products"],
+        "category": "tools",
+        "price": 259,
+        "sale": true,
+        "discount": "20",
+        "stock": 3,
+        "new": true,
+        "tags": [
+            "HiFi"
+        ],
+        "variants": [{
+            "variant_id": 18301,
+            "id": 183,
+            "sku": "tools56",
+            "image_id": 18311
+        }],
+        "images": [{
+            "image_id": 18311,
+            "id": 183,
+            "alt": "tools",
+            "src": "assets/images/product/tools/wiredSpeaker.png",
+            "variant_id": [
+                18301
+            ]
+        }]
+    }, {
+        "id": 184,
+        "title": "Wireless Speaker",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+        "type": "computer",
+        "brand": "skoda",
+        "collection": ["new products"],
+        "category": "tools",
+        "price": 299,
+        "sale": false,
+        "discount": "20",
+        "stock": 0,
+        "new": false,
+        "tags": [
+            "skoda"
+        ],
+        "variants": [{
+            "variant_id": 18401,
+            "id": 184,
+            "sku": "tools46",
+            "image_id": 18411
+        }],
+        "images": [{
+            "image_id": 18411,
+            "id": 184,
+            "alt": "tools",
+            "src": "assets/images/product/tools/wirelessSpeaker.png",
+            "variant_id": [
+                18401
+            ]
+        }]
+    },{
+        "id": 206,
+        "title": "3ply Face Mask",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+        "type": "Health & Beauty",
+        "brand": "mask",
+        "collection": ["on sale"],
+        "category": "gym",
+        "price": 15,
+        "sale": true,
+        "discount": "20",
+        "stock": 25,
+        "new": true,
+        "tags": [
+            "sale",
+            "mask"
+        ],
+        "variants": [{
+            "variant_id": 20601,
+            "id": 206,
+            "sku": "gym46",
+            "image_id": 20611
+        }],
+        "images": [{
+            "image_id": 20611,
+            "id": 206,
+            "alt": "gym",
+            "src": "assets/images/product/gym/mask.png",
+            "variant_id": [
+                20601
+            ]
+        }]
+    }, {
+        "id": 207,
+        "title": "5ply Face Mask",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+        "type": "Health & Beauty",
+        "brand": "mask",
+        "collection": ["on sale"],
+        "category": "gym",
+        "price": 50,
+        "sale": false,
+        "discount": "20",
+        "stock": 2,
+        "new": false,
+        "tags": [
+            "new",
+            "mask"
+        ],
+        "variants": [{
+            "variant_id": 20701,
+            "id": 207,
+            "sku": "gym46",
+            "image_id": 20711
+        }],
+        "images": [{
+            "image_id": 20711,
+            "id": 207,
+            "alt": "gym",
+            "src": "assets/images/product/gym/5ply.png",
+            "variant_id": [
+                20701
+            ]
+        }]
+    }, {
+        "id": 208,
+        "title": "Hand Sanizter",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+        "type": "Health & Beauty",
+        "brand": "Dettol",
+        "collection": ["best sellers"],
+        "category": "gym",
+        "price": 10,
+        "sale": false,
+        "discount": "20",
+        "stock": 1,
+        "new": true,
+        "tags": [
+            "new",
+            "dettol"
+        ],
+        "variants": [{
+            "variant_id": 20801,
+            "id": 208,
+            "sku": "gym46",
+            "image_id": 20811
+        }],
+        "images": [{
+            "image_id": 20811,
+            "id": 208,
+            "alt": "gym",
+            "src": "assets/images/product/gym/sanitizer.png",
+            "variant_id": [
+                20801
+            ]
+        }]
+    }, {
+        "id": 209,
+        "title": "Hand Gloves",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.",
+        "type": "Health & Beauty",
+        "brand": "top glove",
+        "collection": ["on sale"],
+        "category": "gym",
+        "price": 29,
+        "sale": true,
+        "discount": "20",
+        "stock": 10,
+        "new": false,
+        "tags": [
+            "sale",
+            "top glove"
+        ],
+        "variants": [{
+            "variant_id": 20901,
+            "id": 209,
+            "sku": "gym46",
+            "image_id": 20911
+        }],
+        "images": [{
+            "image_id": 20911,
+            "id": 209,
+            "alt": "gym",
+            "src": "assets/images/product/gym/gloves.png",
+            "variant_id": [
+                20901
+            ]
+        }]
+    }
+]

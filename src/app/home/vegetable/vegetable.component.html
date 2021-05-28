@@ -1,0 +1,112 @@
+<app-header-three></app-header-three>
+
+<!-- Home slider start-->
+<section class="p-0">
+  <app-slider 
+    [sliders]="sliders" 
+    [textClass]="'text-center'"
+    [category]="'vegetables'"
+    [buttonText]="'shop now'"> 
+  </app-slider>
+</section>
+<!-- Home slider End -->
+
+
+
+<!-- product section -->
+<section class="section-b-space">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="title4">
+                    <h2 class="title-inner4">trending products</h2>
+                    <div class="line">
+                        <span></span>
+                    </div>
+                </div>
+                <owl-carousel-o class="product-5 product-m no-arrow" [options]="ProductSliderConfig">
+                  <ng-container *ngFor="let product of products | slice:0:8">
+                    <ng-template carouselSlide>
+                      <div class="product-box product-wrap">
+                          <app-product-box-two 
+                            [product]="product"
+                            [currency]="productService?.Currency">    
+                          </app-product-box-two>
+                      </div>
+                    </ng-template>
+                  </ng-container>
+                </owl-carousel-o>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- product section end -->
+
+<!-- Parallax banner -->
+<section class="p-0">
+    <div class="full-banner parallax-banner15 parallax text-left p-left"
+        [ngStyle]="{'background-image': 'url(assets/images/parallax/accessories3.png)'}">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="banner-contain">
+                        <h2>2020</h2>
+                        <h3>HELP Accessories</h3>
+                        <h4>Get yours NOW</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Parallax banner end -->
+
+<!-- product-box slider -->
+<section>
+  <div class="full-box">
+      <div class="container">
+          <div class="title4">
+              <h2 class="title-inner4">our products</h2>
+              <div class="line">
+                  <span></span>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-7">
+                  <div class="theme-card center-align">
+                      <div class="offer-slider">
+                          <div class="sec-1">
+                              <div class="product-box2" *ngFor="let product of products | slice:0:2">
+                                <app-product-box-vertical 
+                                  [product]="product"
+                                  [currency]="productService?.Currency">    
+                                </app-product-box-vertical>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              
+                <div class="theme-card center-align">
+                    <div class="offer-slider">
+                        <div class="sec-1">
+                            <div class="product-box2" *ngFor="let product of products | slice:2:4">
+                              <app-product-box-vertical 
+                                [product]="product"
+                                [currency]="productService?.Currency">    
+                              </app-product-box-vertical>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+  
+</section>
+<!-- product-box slider end -->
+
+
+<!-- Cart Open To Right Side-->
+<app-cart-variation [direction]="'right'"></app-cart-variation> 
+<app-footer-one></app-footer-one>

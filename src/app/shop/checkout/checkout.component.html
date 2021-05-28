@@ -1,0 +1,234 @@
+<app-breadcrumb [title]="'Checkout'" [breadcrumb]="'Checkout'"></app-breadcrumb>
+<section class="section-b-space">
+    <div class="container padding-cls">
+        <div class="checkout-page">
+            <div class="checkout-form">
+                <form>
+                    <div class="row">
+                        <!-- <div class="col-lg-6 col-sm-12 col-xs-12">
+                            <div class="checkout-title">
+                                <h3>Billing Details</h3>
+                            </div>
+                            <div class="row check-out">
+                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                    <div class="field-label">First Name</div>
+                                    <input type="text" name="firstname" [formControl]="checkoutForm.controls['firstname']" value="" placeholder="" autocomplete="off">
+                                    <div *ngIf="checkoutForm.controls.firstname.touched && checkoutForm.controls.firstname.errors?.required" class="text text-danger">
+                                    First Name is required.
+                                    </div>
+                                    <div *ngIf="checkoutForm.controls.firstname.touched && checkoutForm.controls.firstname.errors?.pattern" class="text text-danger">
+                                    First Name must be an alphabates.
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                    <div class="field-label">Last Name </div>
+                                    <input type="text" name="lastname" [formControl]="checkoutForm.controls['lastname']" value="" placeholder="" autocomplete="off">
+                                    <div *ngIf="checkoutForm.controls.lastname.touched && checkoutForm.controls.lastname.errors?.required" class="text text-danger">
+                                    Last Name is required.
+                                    </div>
+                                    <div *ngIf="checkoutForm.controls.lastname.touched && checkoutForm.controls.lastname.errors?.pattern" class="text text-danger">
+                                    Last Name must be an alphabates.
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                    <div class="field-label">Phone</div>
+                                    <input type="text" name="phone" [formControl]="checkoutForm.controls['phone']" value="" placeholder="" autocomplete="off">
+                                    <div *ngIf="checkoutForm.controls.phone.touched && checkoutForm.controls.phone.errors?.required" class="text text-danger">
+                                     Phone No is required.
+                                    </div>
+                                    <div *ngIf="checkoutForm.controls.phone.touched && checkoutForm.controls.phone.errors?.pattern" class="text text-danger">
+                                      Phone No is must be number.
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                    <div class="field-label">Email Address</div>
+                                    <input type="text" name="email" [formControl]="checkoutForm.controls['email']" value="" placeholder="" autocomplete="off">
+                                    <div *ngIf="checkoutForm.controls.email.touched && checkoutForm.controls.email.errors?.required" class="text text-danger">
+                                     Email is required
+                                    </div>
+                                    <div *ngIf="checkoutForm.controls.email.touched && checkoutForm.controls.email.errors?.email" class="text text-danger">
+                                     Invalid Email
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                    <div class="field-label">Country</div>
+                                    <select name="country" [formControl]="checkoutForm.controls['country']">
+                                        <option value="" selected>Select Country</option>
+                                        <option value="India">Malaysia</option>
+                                    </select>
+                                    <div *ngIf="checkoutForm.controls.country.touched && checkoutForm.controls.country.errors?.required" class="text text-danger">
+                                     Country is required
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                    <div class="field-label">Address</div>
+                                    <input type="text" name="address" [formControl]="checkoutForm.controls['address']" value="" placeholder="" autocomplete="off">
+                                    <div *ngIf="checkoutForm.controls.address.touched && checkoutForm.controls.address.errors?.required" class="text text-danger">
+                                     Address is required
+                                    </div>
+                                    <div *ngIf="checkoutForm.controls.address.touched && checkoutForm.controls.address.errors?.maxlength" class="text text-danger">
+                                      Maximum 50 character
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                    <div class="field-label">Town/City</div>
+                                    <input type="text" name="town" [formControl]="checkoutForm.controls['town']" value="" placeholder="" autocomplete="off">
+                                     <div *ngIf="checkoutForm.controls.town.touched && checkoutForm.controls.town.errors?.required" class="text text-danger">
+                                     City is required
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-12 col-sm-6 col-xs-12">
+                                    <div class="field-label">State</div>
+                                    <input type="text" name="state" [formControl]="checkoutForm.controls['state']" value="" placeholder="" autocomplete="off">
+                                     <div *ngIf="checkoutForm.controls.state.touched && checkoutForm.controls.state.errors?.required" class="text text-danger">
+                                     State is required
+                                    </div>
+                                </div>
+                                <div class="form-group col-md-12 col-sm-6 col-xs-12">
+                                    <div class="field-label">Postal Code</div>
+                                    <input type="text" name="postalcode" [formControl]="checkoutForm.controls['postalcode']" value="" placeholder="" autocomplete="off">
+                                    <div *ngIf="checkoutForm.controls.postalcode.touched && checkoutForm.controls.postalcode.errors?.required" class="text text-danger">
+                                     Postalcode is required
+                                    </div>
+                                </div>
+                            </div>
+                          <div class="row ">
+                            <div class="col-12">
+                              <div class="stripe-section">
+                                <h5>iPay88</h5>
+                                <div class="content">
+                                  <h5>dummy test</h5>
+                                  <table>
+                                    <tr>
+                                      <td>cart number</td>
+                                      <td>4242424242424242</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Maybank2u</td>
+                                      <td>1234 5678 8765 4321</td>
+                                    </tr>
+                                    <tr>
+                                      <td>CIMB Clicks</td>
+                                      <td>8765 4321 1234 5678</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row margin-cls">
+                            <div class="col-12">
+                              <div class="stripe-section">
+                                <h5>GrabPay</h5>
+                                <div class="content">
+                                  <h5>dummy test</h5>
+                                  <table>
+                                    <tr>
+                                      <td>cart number</td>
+                                      <td>4152521541244</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Grab ID</td>
+                                      <td>123456</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Name</td>
+                                      <td>Joe Smith</td>
+                                    </tr>
+                                  </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div> -->
+
+                        <div class="col-lg-12 col-sm-12 col-xs-12 ">
+                            <div class="checkout-details">
+                                <div class="order-box">
+                                    <div class="title-box">
+                                        <div>Product <span> Total</span></div>
+                                    </div>
+                                    <ul class="qty" *ngIf='products.length'>
+                                        <li *ngFor="let product of products">
+                                        	 {{ product.title }} × {{ product.quantity }}
+                                        	<span>
+                                                {{ (product.price | discount:product) * product.quantity | currency:productService?.Currency.currency:'symbol' }}
+                                            </span>
+                                        </li>
+                                    </ul>
+                                    <ul class="qty" *ngIf='!products.length'>
+                                        <li class="empty-checkout"> There are no products in cart </li>
+                                    </ul>
+                                    <ul class="sub-total">
+                                        <li>
+                                        	Subtotal <span class="count">{{ getTotal | async | currency:productService?.Currency.currency:'symbol'}}</span>
+                                        </li>
+                                        <li *ngIf='products.length'>
+                                        	Shipping
+                                         <div class="shipping">
+
+                                          <select name="id" [(ngModel)]="courier" [ngModelOptions]="{standalone: true}"
+                                          required>
+                                          <option *ngFor="let pow of powers" [value]="pow">{{pow}}</option>
+                                      </select>
+                                         </div>
+                                        </li>
+                                    </ul>
+                                    <ul class="total">
+                                        <li>Total <span class="count">{{ getTotal | async | currency:productService?.Currency.currency:'symbol'}}</span></li>
+                                    </ul>
+                                </div>
+
+                                <div class="payment-box" *ngIf='products.length'>
+                                    <div class="upper-box">
+                                        <div class="payment-options">
+                                            <ul>
+                                                <li>
+                                                    <div class="radio-option">
+                                                        <input type="radio" [(ngModel)]="payment" [value]="'iPay88'"  name="payment-group" id="payment-2">
+                                                        <label for="payment-2">iPay88
+                                                            <span class="small-text">Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</span></label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="radio-option">
+                                                        <input type="radio" [(ngModel)]="payment" [value]="'GrabPay'" name="payment-group" id="payment-3">
+                                                        <label for="payment-3">GrabPay<span class="image"><img src="assets/images/grab.png" alt="" /></span></label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="radio-option">
+                                                        <input type="radio" [(ngModel)]="payment" [value]="'Stripe'"  name="payment-group" id="payment-4">
+                                                        <label for="payment-4">Stripe<span class="small-text">Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</span></label>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                  <div class="radio-option paypal">
+                                                    <input type="radio" [(ngModel)]="payment" [value]="'Paypal'" name="payment-group" id="payment-5">
+                                                    <label for="payment-5">PayPal<span class="image"><img src="assets/images/paypal.png" alt="" /></span></label>
+                                                  </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="text-right">
+                                        <button type="submit" class="btn-solid btn" (click)="stripeCheckout()" *ngIf="payment == 'iPay88' || payment == 'GrabPay'">
+                                           Place Order
+                                        </button>
+                                        <ngx-paypal [config]="payPalConfig" *ngIf="payment == 'Paypal'"></ngx-paypal>
+                                    </div>
+                                    <div class="text-right">
+                                      <button type="submit" class="btn-solid btn" (click)="stripeCheckout1()" *ngIf="payment == 'Stripe'">
+                                         Place Order
+                                      </button>
+                                      <ngx-paypal [config]="payPalConfig" *ngIf="payment == 'Paypal'"></ngx-paypal>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
